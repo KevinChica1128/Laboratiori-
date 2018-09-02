@@ -246,9 +246,164 @@ $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & $\lambda_4$ \\
 \section{Punto 6}
 \section{Punto 7}
 \section{Punto 8}
-\section{Punto 9}
-\section{Punto 10}
+\begin{itemize}
+\item Proyección de la matriz de datos originales asociada a los vectores propios de la matriz de varianzas y covarianzas:
+~\\ Esta proyección la podemos encontrar haciendo el producto $A\cdot u$ donde A es la matriz de datos originales y u es la matriz compuesta por los vectores propios correspondientes a la matriz de varianzas y covarianzas. En nuestro caso:
 
+\[
+\left(
+\begin{array}{cccc}
+1.89 & 53 & 4.5 & 120 \\
+1.92 & 62 & 5.2 & 136 \\
+1.95 & 71 & 5.4 & 145 \\
+2.11 & 75 & 6.1 & 156 \\
+1.78 & 58 & 5.0 & 127 \\
+2.12 & 77 & 6.5 & 160 \\
+2.06 & 82 & 7.6 & 169 \\
+2.19 & 78 & 7.3 & 164 \\
+1.93 & 60 & 5.5 & 142 \\
+1.84 & 72 & 5.7 & 147 \\
+\end{array}
+\right)
+\cdot \left(
+\begin{array}{cccc}
+-0.005759331 & -0.01300728 &  0.001249545 &  0.9998980345 \\
+-0.517026145 &  0.85544272 & -0.028891125 &  0.0081861926 \\
+-0.050711126 & -0.06431056 & -0.996640617 & 0.0001167914  \\
+-0.854446708 & -0.51372435 & 0.076623899  & -0.0117001348 \\
+\end{array}
+\right)\] 
+
+\[=
+\left(
+\begin{array}{cccc}
+-130.1751 & -16.62244 & 3.181117 & 0.9201849 \\
+-148.5351 & -17.18845 & 3.449468 & 0.8367372 \\
+-160.8887 & -14.12624 & 3.679773 & 0.8351320 \\
+-172.3921 & -16.40253 & 3.709623 & 0.8992407 \\
+-138.7661 & -15.97202 & 3.074571 & 0.7692845 \\
+-176.8643 & -16.77240 & 3.559692 & 0.8788583 \\
+-187.1949 & -17.18867 & 3.008472 & 0.7546226 \\
+-180.8401 & -18.02421 & 3.040072 & 0.9103302 \\
+-152.6430 & -22.00111 & 3.668014 & 0.7601980 \\
+-163.1292 & -14.31611 & 3.505000 & 0.7099642 \\
+\end{array}
+\right)\] 
+
+\item Proyección de la matriz de datos centrados asociada a los vectores propios de la matriz de varianzas y covarianzas:
+~\\ Esta proyección la podemos encontrar haciendo el producto $A\cdot u$ donde A es la matriz de datos centrados y u es la matriz compuesta por los vectores propios correspondientes a la matriz de varianzas y covarianzas. En nuestro caso:
+
+\[
+\left(
+\begin{array}{cccc}
+1.89 & 53 & 4.5 & 120 \\
+1.92 & 62 & 5.2 & 136 \\
+1.95 & 71 & 5.4 & 145 \\
+2.11 & 75 & 6.1 & 156 \\
+1.78 & 58 & 5.0 & 127 \\
+2.12 & 77 & 6.5 & 160 \\
+2.06 & 82 & 7.6 & 169 \\
+2.19 & 78 & 7.3 & 164 \\
+1.93 & 60 & 5.5 & 142 \\
+1.84 & 72 & 5.7 & 147 \\
+\end{array}
+\right)
+\cdot \left(
+\begin{array}{cccc}
+-0.005759331 & -0.01300728 &  0.001249545 &  0.9998980345 \\
+-0.517026145 &  0.85544272 & -0.028891125 &  0.0081861926 \\
+-0.050711126 & -0.06431056 & -0.996640617 & 0.0001167914  \\
+-0.854446708 & -0.51372435 & 0.076623899  & -0.0117001348 \\
+\end{array}
+\right)\] 
+
+\[=
+\left(
+\begin{array}{cccc}
+-130.1751 & -16.62244 & 3.181117 & 0.9201849 \\
+-148.5351 & -17.18845 & 3.449468 & 0.8367372 \\
+-160.8887 & -14.12624 & 3.679773 & 0.8351320 \\
+-172.3921 & -16.40253 & 3.709623 & 0.8992407 \\
+-138.7661 & -15.97202 & 3.074571 & 0.7692845 \\
+-176.8643 & -16.77240 & 3.559692 & 0.8788583 \\
+-187.1949 & -17.18867 & 3.008472 & 0.7546226 \\
+-180.8401 & -18.02421 & 3.040072 & 0.9103302 \\
+-152.6430 & -22.00111 & 3.668014 & 0.7601980 \\
+-163.1292 & -14.31611 & 3.505000 & 0.7099642 \\
+\end{array}
+\right)\] 
+
+\item Proyección de la matriz de datos estandarizados asociada a los vectores propios de la matriz de correlaciones:
+~\\ Esta proyección la podemos encontrar haciendo el producto $A\cdot u$ donde A es la matriz de datos estandarizados y u es la matriz compuesta por los vectores propios correspondientes a la matriz de correlaciones. En nuestro caso:
+
+\[
+\left(
+\begin{array}{cccc}
+1.89 & 53 & 4.5 & 120 \\
+1.92 & 62 & 5.2 & 136 \\
+1.95 & 71 & 5.4 & 145 \\
+2.11 & 75 & 6.1 & 156 \\
+1.78 & 58 & 5.0 & 127 \\
+2.12 & 77 & 6.5 & 160 \\
+2.06 & 82 & 7.6 & 169 \\
+2.19 & 78 & 7.3 & 164 \\
+1.93 & 60 & 5.5 & 142 \\
+1.84 & 72 & 5.7 & 147 \\
+\end{array}
+\right)
+\cdot \left(
+\begin{array}{cccc}
+-0.005759331 & -0.01300728 &  0.001249545 &  0.9998980345 \\
+-0.517026145 &  0.85544272 & -0.028891125 &  0.0081861926 \\
+-0.050711126 & -0.06431056 & -0.996640617 & 0.0001167914  \\
+-0.854446708 & -0.51372435 & 0.076623899  & -0.0117001348 \\
+\end{array}
+\right)\] 
+
+\[=
+\left(
+\begin{array}{cccc}
+-130.1751 & -16.62244 & 3.181117 & 0.9201849 \\
+-148.5351 & -17.18845 & 3.449468 & 0.8367372 \\
+-160.8887 & -14.12624 & 3.679773 & 0.8351320 \\
+-172.3921 & -16.40253 & 3.709623 & 0.8992407 \\
+-138.7661 & -15.97202 & 3.074571 & 0.7692845 \\
+-176.8643 & -16.77240 & 3.559692 & 0.8788583 \\
+-187.1949 & -17.18867 & 3.008472 & 0.7546226 \\
+-180.8401 & -18.02421 & 3.040072 & 0.9103302 \\
+-152.6430 & -22.00111 & 3.668014 & 0.7601980 \\
+-163.1292 & -14.31611 & 3.505000 & 0.7099642 \\
+\end{array}
+\right)\] 
+\end{itemize}
+\section{Punto 9}
+
+\pagebreak
+\section{Punto 10}
+\begin{itemize}
+\item Gráfico en 2 dimensiones de la proyección encontrada de la matriz de datos original y los vectores propios de la matriz de varianzas y covarianzas:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G1.pdf}
+  \caption{Gráfico de la proyección de la matriz de datos original}\label{figura1}
+\end{figure}
+
+
+\item Gráfico en 2 dimensiones de la proyección encontrada de la matriz de datos centrada y los vectores propios de la matriz de varianzas y covarianzas:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G2.pdf}
+  \caption{Gráfico de la proyección de la matriz de datos centrada}\label{figura1}
+\end{figure}
+
+
+\item Gráfico en 2 dimensiones de la proyección encontrada de la matriz de datos estandarizada y los vectores propios de la matriz de correlaciones:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G3.pdf}
+  \caption{Gráfico de la proyección de la matriz de datos estandarizada}\label{figura1}
+\end{figure}
+\end{itemize}
 
 \setlength{\parskip}{1mm}
 ~\\\nocite{apl}
