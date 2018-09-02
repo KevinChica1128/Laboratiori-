@@ -58,6 +58,7 @@ z2 <- (x2 - mean(x2))/sd2(x2)
 z3 <- (x3 - mean(x3))/sd2(x3)
 z4 <- (x4 - mean(x4))/sd2(x4)
 
+
 #Matriz de dats estandarizada:
 Z <- matrix(c(z1,z2,z3,z4),10,4)
 
@@ -94,5 +95,42 @@ dvR <- eigen(R)  # Valores y Vectores propios de R
 uR <- dvR$vectors
 lR <- dvR$values
 
-#--------------------------------------------------------------------------#
-#Punto 6:
+
+#-------------------------------------------------------------------------#
+#punto 8:
+t<-x%*%u
+T<-X%*%u
+Tz<-Z%*%uR
+#------------------------------------------------------------------------#
+#punto 9:
+install.packages("scatterplot3d")
+library(scatterplot3d)
+X11()
+scatterplot3d(x1,x2,x3,angle = 40,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
+X11()
+scatterplot3d(x1,x2,x3,angle = 120,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
+X11()
+scatterplot3d(x1,x2,x3,angle = 200,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
+
+#-------------------------------------------------------------------------#
+#Punto 10:
+x11()
+plot(t[,1],t[,2])
+text(t[,1],t[,2]+0.22,c(1,2,3,4,5,6,7,8,9,10))
+
+x11()
+plot(T[,1],T[,2])
+text(T[,1],T[,2]+0.25,c(1,2,3,4,5,6,7,8,9,10))
+
+x11()
+plot(Tz[,1],Tz[,2])
+text(Tz[,1],Tz[,2]+0.05,c(1,2,3,4,5,6,7,8,9,10))
+
+
+X11()
+scatterplot3d(t[,1],t[,2],t[,3],xlab = "componente 1",ylab = "componente 2",zlab = "componente 3")
+X11()
+scatterplot3d(T[,1],T[,2],T[,3],xlab = "componente 1",ylab = "componente 2",zlab = "componente 3")
+X11()
+scatterplot3d(Tz[,1],Tz[,2],Tz[,3],xlab = "componente 1",ylab = "componente 2",zlab = "componente 3")
+
