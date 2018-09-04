@@ -59,12 +59,12 @@ z3 <- (x3 - mean(x3))/sd2(x3)
 z4 <- (x4 - mean(x4))/sd2(x4)
 
 
-#Matriz de dats estandarizada:
+#Matriz de datos estandarizada:
 Z <- matrix(c(z1,z2,z3,z4),10,4)
 
 gs<-c(mean(z1),mean(z2),mean(z3),mean(z4)) #Punto de gravedad con datos estandarizados
 
-#Inercia con los datos originales
+#Inercia con los datos estandarizados
 ss<-c()
 for (i in 1:10) {
   ss[i]<-c((t(Z[i,]-gs))%*%(Z[i,]-gs))
