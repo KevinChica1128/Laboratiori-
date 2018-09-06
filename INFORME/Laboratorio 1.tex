@@ -191,14 +191,12 @@ $$I(N)=4$$
 \section{Punto 3}
 ~\\ La matriz de varianzas y covarianzas de la matriz de datos es:
 \begin{center}
-\begin{tabular}{|ccccc|}
-\hline 
+\begin{tabular}{ccccc}
  & Altura planta & Longitud radicular & Área foliar & Peso pulpa \\ 
 Altura planta & 0.01796556 & 0.9842222 & 0.1056444 & 1.746222 \\ 
 Longitud radicular & 0.98422222 & 96.6222222 & 8.8733333 & 151.8 \\ 
 Área foliar & 0.10564444 & 8.8733333 & 0.9951111 & 15.246667 \\  
 Peso pulpa & 1.746222 & 151.8 & 15.246667 & 255.6 \\ 
-\hline 
 \end{tabular} 
 \end{center}
 \section{Punto 4}
@@ -244,7 +242,11 @@ $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & $\lambda_4$ \\
 \end{center}
 \end{itemize}
 \section{Punto 6}
+~\\Las descomposiciones no son idénticas, esta diferencia se debe a que las dos matrices son diferentes, la primera es la de varianzas y covarianzas (presentan escalas muy grandes en sus valores) y la segunda es de correlaciones (el máximo valor que puede presentar es 1 que es la máxima correlación y además esta matriz tiene la propiedad de que su traza o la suma de los valores de su diagonal da como resultado el número de variables en cuestión).Las dos me explican aspectos diferentes sobre las variables,por ende sus descomposiciones son diferentes sin embargo, estas representan la misma cantidad de información contenida en los datos, ya que las correlaciones que componen la matriz se obtienen a partir de las varianzas y covarianzas, por lo tanto, se podría decir que las dos matrices guardan cierta relación pero no son iguales, por ello se explica su diferencia en las descomposiciones.
 \section{Punto 7}
+~\\De acuerdo a los datos originales es mejor utilizar la matriz de correlaciones, ya que estos datos fueron medidos en diferentes
+ unidades (metros, centímetros, centímetros cuadrados, gramos), y la matriz de correlaciones trabaja con los datos estandarizados, es decir,
+pone las variables en las mismas unidades o en la misma escala, por lo tanto es mejor para hacer un análisis multivariado correcto, evitando que el proceso se vea influenciado por grandes cantidades de una variable u otra dependiendo de su escala o unidad de medida.
 \section{Punto 8}
 \begin{itemize}
 \item Proyección de la matriz de datos originales asociada a los vectores propios de la matriz de varianzas y covarianzas:
@@ -376,7 +378,24 @@ $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & $\lambda_4$ \\
 \end{array}
 \right)\] 
 \end{itemize}
+
+~\\Las proyecciones que se obtienen al multiplicar la matriz de datos estandarizadas por los vectores propios de la matriz de correlaciones (Z$\cdot$V) significan o representan la coordenada o la posición de cada individuo en la componente o eje nuevo que se forma. Así, se ubican los individuos en el plano principal (plano que se forma entre la componente 1 y la componente 2) con las dos coordenadas o valores que arroja este producto para cada individuo.
 \section{Punto 9}
+\begin{itemize}
+\item Gráfico en 3 dimensiones de las variables altura planta ($X_{1}$), longitud radicular ($X_{2}$) y área foliar ($X_{3}$) para la matriz original:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G4.pdf}
+  \caption{Gráfico en 3 dimensiones para la matriz de datos original}\label{figura1}
+\end{figure}
+
+\item Gráfico en 3 dimensiones de las variables altura planta ($X_{1}$), longitud radicular ($X_{2}$) y área foliar ($X_{3}$) para la matriz estandarizada:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G5.pdf}
+  \caption{Gráfico en 3 dimensiones para la matriz de datos estandarizada}\label{figura1}
+\end{figure}
+\end{itemize}
 
 \pagebreak
 \section{Punto 10}
@@ -402,6 +421,13 @@ $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & $\lambda_4$ \\
   \centering
   \includegraphics[scale=0.25]{FigurasUV/G3.pdf}
   \caption{Gráfico de la proyección de la matriz de datos estandarizada}\label{figura1}
+\end{figure}
+
+\item Gráfico en 3 dimensiones (usando las 3 primeras componentes principales) de las proyecciones encontradas de la matriz de datos estandarizada y los vectores propios de la matriz de correlaciones:
+\begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.25]{FigurasUV/G6.pdf}
+  \caption{Gráfico de la proyección de la matriz de datos estandarizada con tres componentes principales}\label{figura1}
 \end{figure}
 \end{itemize}
 

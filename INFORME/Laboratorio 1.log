@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  3 SEP 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  5 SEP 2018 21:07
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -301,6 +301,15 @@ LaTeX Warning: Label `figura1' multiply defined.
 
 LaTeX Warning: Label `figura1' multiply defined.
 
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
 )
 \openout1 = `"Laboratorio 1.aux"'.
 
@@ -404,42 +413,67 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 {C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [
 3] [4] [5]
-<FigurasUV/G1.pdf, id=32, 1027.84pt x 545.03625pt>
+<FigurasUV/G4.pdf, id=32, 1027.84pt x 545.03625pt>
+File: FigurasUV/G4.pdf Graphic file (type pdf)
+ <use FigurasUV/G4.pdf>
+Package pdftex.def Info: FigurasUV/G4.pdf used on input line 388.
+(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
+
+<FigurasUV/G5.pdf, id=33, 1027.84pt x 545.03625pt>
+File: FigurasUV/G5.pdf Graphic file (type pdf)
+ <use FigurasUV/G5.pdf>
+Package pdftex.def Info: FigurasUV/G5.pdf used on input line 395.
+(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./FigurasUV/G4.pdf>] <FigurasUV/G1.pdf, id=42, 1027.84pt x 545.03625pt>
 File: FigurasUV/G1.pdf Graphic file (type pdf)
- <use FigurasUV/G1.pdf>
-Package pdftex.def Info: FigurasUV/G1.pdf used on input line 387.
-(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
 
-<FigurasUV/G2.pdf, id=33, 1027.84pt x 545.03625pt>
+<use FigurasUV/G1.pdf>
+Package pdftex.def Info: FigurasUV/G1.pdf used on input line 406.
+(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
+ <FigurasUV/G2.pdf, id=43, 1027.84pt x 545.03625pt>
 File: FigurasUV/G2.pdf Graphic file (type pdf)
- <use FigurasUV/G2.pdf>
-Package pdftex.def Info: FigurasUV/G2.pdf used on input line 395.
-(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
 
-<FigurasUV/G3.pdf, id=34, 1027.84pt x 545.03625pt>
+<use FigurasUV/G2.pdf>
+Package pdftex.def Info: FigurasUV/G2.pdf used on input line 414.
+(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
+ <FigurasUV/G3.pdf, id=44, 1027.84pt x 545.03625pt>
 File: FigurasUV/G3.pdf Graphic file (type pdf)
- <use FigurasUV/G3.pdf>
-Package pdftex.def Info: FigurasUV/G3.pdf used on input line 403.
+
+<use FigurasUV/G3.pdf>
+Package pdftex.def Info: FigurasUV/G3.pdf used on input line 422.
 (pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
 
 
-LaTeX Warning: Citation 'apl' on page 6 undefined on input line 409.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<FigurasUV/G6.pdf, id=45, 1027.84pt x 545.03625pt>
+File: FigurasUV/G6.pdf Graphic file (type pdf)
+ <use FigurasUV/G6.pdf>
+Package pdftex.def Info: FigurasUV/G6.pdf used on input line 429.
+(pdftex.def)             Requested size: 256.95937pt x 136.25873pt.
+
+[7 <./FigurasUV/G5.pdf> <./FigurasUV/G1.pdf> <./FigurasUV/G2.pdf>]
+
+LaTeX Warning: Citation 'apl' on page 8 undefined on input line 435.
 
 
-LaTeX Warning: Citation 'Reg' on page 6 undefined on input line 410.
+LaTeX Warning: Citation 'Reg' on page 8 undefined on input line 436.
 
 
-LaTeX Warning: Citation 'F' on page 6 undefined on input line 411.
+LaTeX Warning: Citation 'F' on page 8 undefined on input line 437.
 
 
-LaTeX Warning: Citation 'Tus' on page 6 undefined on input line 412.
+LaTeX Warning: Citation 'Tus' on page 8 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Lm' on page 6 undefined on input line 413.
+LaTeX Warning: Citation 'Lm' on page 8 undefined on input line 439.
 
 No file "Laboratorio 1".bbl.
-[6 <./FigurasUV/G1.pdf> <./FigurasUV/G2.pdf> <./FigurasUV/G3.pdf>] [7]
-("Laboratorio 1.aux"
+[8 <./FigurasUV/G3.pdf> <./FigurasUV/G6.pdf>] ("Laboratorio 1.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -448,13 +482,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5282 strings out of 493334
- 73198 string characters out of 3139234
+ 5297 strings out of 493334
+ 73465 string characters out of 3139234
  153755 words of memory out of 3000000
- 8700 multiletter control sequences out of 15000+200000
+ 8712 multiletter control sequences out of 15000+200000
  19575 words of font info for 58 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,824b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,40p,943b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
@@ -474,9 +508,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Laboratorio 1.pdf" (7 pages, 155138 bytes).
+Output written on "Laboratorio 1.pdf" (8 pages, 168488 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
+ 371 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Kevin García - 1533173
-# Alejandro Vargas -
-# Alejandro Soto -
+# Alejandro Vargas - 1525953
+# Alejandro Soto - 1532457
 # Laboratorio 1 - Multivariada
 
 #Ingresamos los datos y conformamos la matriz
@@ -101,6 +101,8 @@ lR <- dvR$values
 t<-x%*%u
 T<-X%*%u
 Tz<-Z%*%uR
+
+Z[1,]%*%uR[,1]
 #------------------------------------------------------------------------#
 #punto 9:
 install.packages("scatterplot3d")
@@ -111,6 +113,9 @@ X11()
 scatterplot3d(x1,x2,x3,angle = 120,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
 X11()
 scatterplot3d(x1,x2,x3,angle = 200,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
+
+x11()
+scatterplot3d(z1,z2,z3,angle = 40,xlab = "altura planta",ylab = "longitud radicular",zlab = "area foliar")
 
 #-------------------------------------------------------------------------#
 #Punto 10:
