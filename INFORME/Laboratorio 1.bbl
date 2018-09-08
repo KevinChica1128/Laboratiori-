@@ -1,0 +1,13 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Ligges \harvardand\ M{\"a}chler}{2003}{3d}
+Ligges, U. \harvardand\ M{\"a}chler, M.  \harvardyearleft 2003\harvardyearright
+  , `Scatterplot3d - an r package for visualizing multivariate data', {\em
+  Journal of Statistical Software} {\bf 8}(11),~1--20.
+\newline\harvardurl{http://www.jstatsoft.org}
+
+\harvarditem{Zelaya}{n.d.}{Multi}
+Zelaya, J.~T.  \harvardyearleft n.d.\harvardyearright , {\em ANÁLISIS
+  MULTIVARIADO DE DATOS}, Universidad de Costa Rica.
+
+\end{thebibliography}
