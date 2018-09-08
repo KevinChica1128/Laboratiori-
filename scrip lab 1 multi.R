@@ -123,14 +123,16 @@ x11()
 plot(t[,1],t[,2],xlab = "Componente 1", ylab = "Componente 2",main = "Gráfico de las proyecciones de la matriz de datos originales usando dos componentes")
 text(t[,1],t[,2]+0.22,c(1,2,3,4,5,6,7,8,9,10))
 
+
 x11()
 plot(T[,1],T[,2],xlab = "Componente 1", ylab = "Componente 2",main = "Gráfico de las proyecciones de la matriz de datos centrados usando dos componentes")
 text(T[,1],T[,2]+0.25,c(1,2,3,4,5,6,7,8,9,10))
+abline(h=0,v=0,col="Blue",lty=2)
 
 x11()
 plot(Tz[,1],Tz[,2],xlab = "Componente 1", ylab = "Componente 2",main = "Gráfico de las proyecciones de la matriz de datos estandarizados usando dos componentes")
 text(Tz[,1],Tz[,2]+0.05,c(1,2,3,4,5,6,7,8,9,10))
-
+abline(h=0,v=0,col="Blue",lty=2)
 
 X11()
 scatterplot3d(t[,1],t[,2],t[,3],xlab = "Componente 1",ylab = "Componente 2",zlab = "Componente 3")
@@ -139,3 +141,15 @@ scatterplot3d(T[,1],T[,2],T[,3],xlab = "Componente 1",ylab = "Componente 2",zlab
 X11()
 scatterplot3d(Tz[,1],Tz[,2],Tz[,3],xlab = "Componente 1",ylab = "Componente 2",zlab = "Componente 3")
 
+library(FactoMineR)
+x11()
+PCA.results <- PCA(x)
+PCA.results$var
+PCA.results$ind
+
+mean(x[10,])
+
+library(factoextra)
+
+x11()
+fviz_pca_biplot(PCA.results)
