@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  17 SEP 2018 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  17 SEP 2018 15:29
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -316,26 +316,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks31
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("Laboratorio 1.aux"
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-)
+("Laboratorio 1.aux")
 \openout1 = `"Laboratorio 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -519,29 +500,31 @@ Package pdftex.def Info: FigurasUV/G6.pdf used on input line 431.
 (pdftex.def)             Requested size: 411.12872pt x 218.01064pt.
 
 [7 <./FigurasUV/G1.pdf> <./FigurasUV/G2.pdf> <./FigurasUV/G3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
- []
+LaTeX Warning: Citation 'Multi' on page 8 undefined on input line 444.
+
+
+LaTeX Warning: Citation '3d' on page 8 undefined on input line 445.
 
 ("Laboratorio 1.bbl") [8 <./FigurasUV/G6.pdf>] ("Laboratorio 1.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5787 strings out of 493334
- 80726 string characters out of 3139234
- 166996 words of memory out of 3000000
- 9186 multiletter control sequences out of 15000+200000
+ 5783 strings out of 493334
+ 80684 string characters out of 3139234
+ 167841 words of memory out of 3000000
+ 9182 multiletter control sequences out of 15000+200000
  20261 words of font info for 59 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,943b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,40p,1044b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
+pi600\ecti1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
 .9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KE
 VINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.
@@ -559,9 +542,9 @@ fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Laboratorio 1.pdf" (8 pages, 186989 bytes).
+Output written on "Laboratorio 1.pdf" (8 pages, 187421 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
+ 424 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
