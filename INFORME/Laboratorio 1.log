@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  8 SEP 2018 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  17 SEP 2018 11:43
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -477,22 +477,17 @@ Overfull \hbox (10.5458pt too wide) detected at line 279
  []
 
 
-Overfull \hbox (10.5458pt too wide) detected at line 322
+Overfull \hbox (62.21263pt too wide) detected at line 322
 [] \OMS/cmsy/m/n/10  []
  []
 
-[4]
-Overfull \hbox (10.5458pt too wide) detected at line 365
-[] \OMS/cmsy/m/n/10  []
- []
-
-[5] <FigurasUV/G4.pdf, id=32, 1027.84pt x 545.03625pt>
+[4] <FigurasUV/G4.pdf, id=29, 1027.84pt x 545.03625pt>
 File: FigurasUV/G4.pdf Graphic file (type pdf)
  <use FigurasUV/G4.pdf>
 Package pdftex.def Info: FigurasUV/G4.pdf used on input line 390.
 (pdftex.def)             Requested size: 411.12872pt x 218.01064pt.
 
-<FigurasUV/G5.pdf, id=33, 1027.84pt x 545.03625pt>
+[5] <FigurasUV/G5.pdf, id=33, 1027.84pt x 545.03625pt>
 File: FigurasUV/G5.pdf Graphic file (type pdf)
  <use FigurasUV/G5.pdf>
 Package pdftex.def Info: FigurasUV/G5.pdf used on input line 397.
@@ -564,7 +559,7 @@ fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Laboratorio 1.pdf" (8 pages, 186643 bytes).
+Output written on "Laboratorio 1.pdf" (8 pages, 186989 bytes).
 PDF statistics:
  423 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
